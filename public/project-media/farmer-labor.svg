@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2a1d"/>
+      <stop offset="1" stop-color="#13523b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="170" cy="120" r="90" fill="#7cffd2" opacity="0.3"/>
+  <rect x="120" y="420" width="240" height="150" rx="20" fill="#ffffff" opacity="0.15"/>
+  <rect x="420" y="330" width="660" height="260" rx="24" fill="#ffffff" opacity="0.12"/>
+  <path d="M120 520 C280 440, 390 460, 540 400 C700 340, 820 360, 1080 300" stroke="#86ffd8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="120" y="140" fill="#d8fff3" font-size="58" font-family="Arial, sans-serif" font-weight="700">Farmer-Labor Portal</text>
+  <text x="120" y="200" fill="#b0f3df" font-size="30" font-family="Arial, sans-serif">Location based job matching platform</text>
+</svg>

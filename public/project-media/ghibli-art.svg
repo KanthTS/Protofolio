@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10233f"/>
+      <stop offset="1" stop-color="#2a4f76"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="980" cy="170" r="110" fill="#a8e3ff" opacity="0.22"/>
+  <rect x="120" y="220" width="420" height="300" rx="28" fill="#ffffff" opacity="0.14"/>
+  <rect x="590" y="250" width="500" height="250" rx="24" fill="#ffffff" opacity="0.14"/>
+  <path d="M180 500 Q280 360 420 500" stroke="#8dd2ff" stroke-width="12" fill="none"/>
+  <path d="M640 470 Q760 330 980 470" stroke="#9ad8ff" stroke-width="12" fill="none"/>
+  <text x="120" y="140" fill="#def2ff" font-size="58" font-family="Arial, sans-serif" font-weight="700">Ghibli Art Generator</text>
+  <text x="120" y="190" fill="#b7dcf6" font-size="30" font-family="Arial, sans-serif">Spring Boot + React creative generation app</text>
+</svg>
