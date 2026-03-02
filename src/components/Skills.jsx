@@ -8,7 +8,7 @@ const Skills = () => {
       id="skills"
       eyebrow="Skills"
       title="Tools I Build With"
-      description="Each badge has hover interaction and staggered reveal for a dynamic skills wall."
+      description="A full-stack toolkit across programming, backend architecture, databases, and developer productivity."
     >
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
         {skills.map((skill, index) => (

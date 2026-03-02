@@ -33,6 +33,12 @@ export const codingProfiles = [
     icon: 'codechef',
   },
   {
+    label: 'GeeksforGeeks',
+    handle: 'geeksforgeeks.org/profile/tsidda0y7d',
+    url: 'https://www.geeksforgeeks.org/profile/tsidda0y7d?tab=activity',
+    icon: 'gfg',
+  },
+  {
     label: 'CodePen',
     handle: 'codepen.io/Kanth-TS',
     url: 'https://codepen.io/Kanth-TS',
@@ -46,11 +52,18 @@ export const aboutText =
 
 // Add or remove skills based on the role you are targeting.
 export const skills = [
+  'Python',
   'Java',
   'JavaScript',
+  'SQL',
+  'C',
   'React.js',
   'Node.js',
   'Express.js',
+  'HTML',
+  'CSS',
+  'Bootstrap',
+  'Spring',
   'Spring Boot',
   'Spring Security',
   'Hibernate',
@@ -60,6 +73,11 @@ export const skills = [
   'REST APIs',
   'JWT Authentication',
   'Tailwind CSS',
+  'Windows',
+  'Linux',
+  'VS Code',
+  'Eclipse',
+  'Jupyter Notebook',
   'Git & GitHub',
   'Postman',
   'Vite',

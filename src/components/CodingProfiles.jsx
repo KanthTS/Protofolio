@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
 import { FaCode, FaLaptopCode } from 'react-icons/fa6';
 import { SiLeetcode, SiCodechef, SiCodepen } from 'react-icons/si';
+import { TbBrandGoogle } from 'react-icons/tb';
 import { codingProfiles } from '../data/portfolioData';
 import SectionShell from './SectionShell';
 
 const iconMap = {
   leetcode: SiLeetcode,
   codechef: SiCodechef,
+  gfg: TbBrandGoogle,
   codepen: SiCodepen,
   default: FaLaptopCode,
 };
