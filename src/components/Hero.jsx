@@ -39,7 +39,7 @@ const Hero = () => {
             Explore Work
             <FaArrowRightLong />
           </a>
-          <a href={profile.resumeUrl} target="_blank" rel="noreferrer" className="cta-secondary">
+          <a href={encodeURI(profile.resumeUrl)} target="_blank" rel="noreferrer" className="cta-secondary">
             Resume
           </a>
           <a href={`mailto:${profile.email}`} className="cta-secondary">
@@ -79,7 +79,7 @@ const Hero = () => {
             <img
               src={profile.profileImage}
               alt={`${profile.fullName} portrait`}
-              className="h-64 w-full rounded-[1.4rem] object-cover sm:h-72"
+              className="h-64 w-full rounded-[1.4rem] object-cover object-center sm:h-72"
               onError={() => setImageError(true)}
             />
           ) : (
