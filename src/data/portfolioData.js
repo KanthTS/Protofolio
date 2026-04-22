@@ -17,7 +17,7 @@ export const profile = {
   // Your current uploaded photo in /public
   profileImage: withBase('/professionalImage.jpeg'),
   // Keep resume in /public/resume.pdf
-  resumeUrl: withBase('/Main(one).pdf'),
+  resumeUrl: withBase('/Main%28one%29.pdf'),
 };
 
 // Update these links with your exact usernames if needed.

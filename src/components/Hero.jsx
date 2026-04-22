@@ -39,7 +39,7 @@ const Hero = () => {
             Explore Work
             <FaArrowRightLong />
           </a>
-          <a href={encodeURI(profile.resumeUrl)} target="_blank" rel="noreferrer" className="cta-secondary">
+          <a href={profile.resumeUrl} target="_blank" rel="noreferrer" className="cta-secondary">
             Resume
           </a>
           <a href={`mailto:${profile.email}`} className="cta-secondary">
