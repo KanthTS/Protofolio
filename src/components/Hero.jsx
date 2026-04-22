@@ -12,7 +12,7 @@ const Hero = () => {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <section id="home" className="mx-auto grid w-full max-w-6xl gap-5 pb-10 pt-14 lg:grid-cols-[1.25fr_0.75fr]">
+    <section id="home" className="mx-auto grid w-full max-w-6xl gap-5 pb-10 pt-14 lg:grid-cols-[1.2fr_0.8fr]">
       <motion.div
         initial={{ opacity: 0, y: 28 }}
         animate={{ opacity: 1, y: 0 }}
@@ -72,18 +72,20 @@ const Hero = () => {
         className="grid gap-5"
       >
         <motion.div
-          whileHover={{ y: -4 }}
-          className="glass-panel overflow-hidden rounded-[2rem] p-3"
+          whileHover={{ y: -6 }}
+          className="glass-panel relative overflow-hidden rounded-[2rem] p-4"
         >
+          <div className="pointer-events-none absolute -left-10 -top-10 h-32 w-32 rounded-full bg-cyan-300/20 blur-2xl" />
+          <div className="pointer-events-none absolute -bottom-10 -right-10 h-36 w-36 rounded-full bg-emerald-300/20 blur-2xl" />
           {!imageError ? (
             <img
               src={profile.profileImage}
               alt={`${profile.fullName} portrait`}
-              className="h-64 w-full rounded-[1.4rem] object-cover object-center sm:h-72"
+              className="relative z-10 h-[20rem] w-full rounded-[1.6rem] border border-white/20 object-cover object-top shadow-[0_20px_45px_rgba(0,0,0,0.35)] sm:h-[23rem]"
               onError={() => setImageError(true)}
             />
           ) : (
-            <div className="flex h-64 w-full flex-col items-center justify-center rounded-[1.4rem] border border-dashed border-white/30 bg-white/5 text-center sm:h-72">
+            <div className="flex h-[20rem] w-full flex-col items-center justify-center rounded-[1.6rem] border border-dashed border-white/30 bg-white/5 text-center sm:h-[23rem]">
               <p className="text-sm font-semibold text-white">Image not found</p>
               <p className="mt-1 text-xs text-white/70">Check file path: `{profile.profileImage}`</p>
             </div>
