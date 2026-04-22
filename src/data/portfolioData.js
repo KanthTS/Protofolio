@@ -1,3 +1,5 @@
+const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 // Customize your profile details here without touching component markup.
 export const profile = {
   fullName: 'Lakshmi Kanth Talamari Sidda',
@@ -13,9 +15,9 @@ export const profile = {
   githubBio:
     'MERN Stack and Java Full Stack Developer, focused on practical full-stack product development.',
   // Your current uploaded photo in /public
-  profileImage: '/image.png',
+  profileImage: withBase('/professionalImage.jpeg'),
   // Keep resume in /public/resume.pdf
-  resumeUrl: '/resume.pdf',
+  resumeUrl: withBase('/Main%28one%29.pdf'),
 };
 
 // Update these links with your exact usernames if needed.
@@ -103,7 +105,7 @@ export const projects = [
     impact:
       'Reduced hiring friction by centralizing job discovery and communication in one accessible platform.',
     githubUrl: 'https://github.com/KanthTS/FarmLabour',
-    mediaUrl: '/project-media/farmer-labor.jpg',
+    mediaUrl: withBase('/project-media/farmer-labor.jpg'),
   },
   {
     title: 'Craftify - Artisan E-Commerce Platform',
@@ -123,7 +125,7 @@ export const projects = [
     impact:
       'Enabled artisan-first digital selling by combining storefront UX and backend commerce workflows.',
     githubUrl: 'https://github.com/KanthTS/finalprojectofhandmade',
-    mediaUrl: '/project-media/craftify-pottery.svg',
+    mediaUrl: withBase('/project-media/craftify-pottery.svg'),
   },
   {
     title: 'Ghibli Art Generator',
@@ -143,7 +145,7 @@ export const projects = [
     impact:
       'Made creative experimentation more accessible through a lightweight full-stack interface.',
     githubUrl: 'https://github.com/KanthTS/GhibiliArt-Using-Java',
-    mediaUrl: '/project-media/ghibli-art.jpg',
+    mediaUrl: withBase('/project-media/ghibli-art.jpg'),
   },
   {
     title: 'SlotSwapper - Peer Slot Exchange Platform',
@@ -163,7 +165,7 @@ export const projects = [
     impact:
       'Streamlined peer slot coordination with a clear end-to-end swapping process and robust backend state handling.',
     githubUrl: 'https://github.com/KanthTS/SlotSwapper',
-    mediaUrl: '/project-media/slot-swapper.jpg',
+    mediaUrl: withBase('/project-media/slot-swapper.jpg'),
   },
 ];
 
