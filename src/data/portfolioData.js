@@ -95,11 +95,11 @@ export const projects = [
       'Rural employers struggle to find reliable workers quickly, while laborers lack a simple way to discover nearby work opportunities.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST APIs'],
     features: [
-      'Location-based job matching for nearby opportunities',
-      'Role-based login for farmers and laborers',
-      'Job posting, search, and application management',
-      'Responsive UI optimized for mobile-first usage',
-    ],
+  'Built 8+ RESTful APIs using Node.js and Express.js for scalable backend workflows',
+  'Optimized database queries in MongoDB to ensure high performance and scalability',
+  'Implemented secure authentication and role-based access using JWT',
+  'Designed modular, multi-language React.js UI components for better accessibility and user experience'
+],
     impact:
       'Reduced hiring friction by centralizing job discovery and communication in one accessible platform.',
     githubUrl: 'https://github.com/KanthTS/FarmLabour',
