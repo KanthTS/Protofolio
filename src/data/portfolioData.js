@@ -16,8 +16,8 @@ export const profile = {
     'MERN Stack and Java Full Stack Developer, focused on practical full-stack product development.',
   // Your current uploaded photo in /public
   profileImage: withBase('/professionalImage.jpeg'),
-  // Keep resume in /public/main(one).pdf
-  resumeUrl: withBase('/main(one).pdf'),
+  // Keep resume in /public/Main(one).pdf
+  resumeUrl: withBase('/Main(one).pdf'),
 };
 
 // Update these links with your exact usernames if needed.
